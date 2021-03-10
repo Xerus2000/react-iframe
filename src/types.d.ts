@@ -1,4 +1,4 @@
-export interface IIframe {
+export interface IIframeProps {
 	url: string,
 	src?: string,
 	allowFullScreen?: boolean,
@@ -10,7 +10,7 @@ export interface IIframe {
 	target?: string,
 	importance?: "auto" | "high" | "low",
 	overflow?: string,
-	styles?: object,
+	style?: object,
 	name?: string,
 	allowpaymentrequest?: boolean,
 	referrerpolicy?: "no-referrer" | "no-referrer-when-downgrade" | "origin" | "origin-when-cross-origin" | "same-origin" | "strict-origin" | "strict-origin-when-cross-origin" | "unsafe-url",
